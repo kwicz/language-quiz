@@ -7,7 +7,7 @@ button {
 }
 
 body {
-  background-image: url("rainbownary.jpeg");
+  background-image: url("../img/rainbownary.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;
@@ -20,4 +20,9 @@ body {
 ul {
 	list-style: none;
 	font-size: 36px;
+	padding: 0px 0px 0px 0px;
+}
+
+img {
+	width: 100px;
 }

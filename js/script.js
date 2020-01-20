@@ -32,9 +32,6 @@ $(document).ready(function() {
 		$("#row2").removeClass("hidden");
 		answer1 = $(this).val();
 		calculate(answer1);
-		console.log("python: " + python);
-		console.log("ruby: " + ruby);
-		console.log("swift: " + swift);
 		event.preventDefault();
 	});
 
@@ -44,9 +41,6 @@ $(document).ready(function() {
 		$("#row3").removeClass("hidden");
 		var answer2 = $(this).val();
 		calculate(answer2);
-				console.log("python: " + python);
-		console.log("ruby: " + ruby);
-		console.log("swift: " + swift);
 		event.preventDefault();
 	});
 
@@ -56,9 +50,6 @@ $(document).ready(function() {
 		$("#row4").removeClass("hidden");
 		var answer3 = $(this).val();
 		calculate(answer3);
-				console.log("python: " + python);
-		console.log("ruby: " + ruby);
-		console.log("swift: " + swift);
 		event.preventDefault();
 	});
 
@@ -68,9 +59,6 @@ $(document).ready(function() {
 		$("#row5").removeClass("hidden");
 		var answer4 = $(this).val();
 		calculate(answer4);
-				console.log("python: " + python);
-		console.log("ruby: " + ruby);
-		console.log("swift: " + swift);
 		event.preventDefault();
 	});
 
@@ -79,29 +67,34 @@ $(document).ready(function() {
 		$("#row5").hide();
 		var answer5 = $(this).val();
 		calculate(answer5);
-				console.log("python: " + python);
-		console.log("ruby: " + ruby);
-		console.log("swift: " + swift);
+		
 		// Determine result
 		if (python > ruby && python > swift || python == ruby && python > swift) {
 			$("ul").append('<li>Python</li>');
 			$("ul").append('<li><a href="https://www.learnpython.org/">Get Started Today!</a></li>');
-			$("ul").append('<li><img src="../css/python.jpeg"></li>');
+			$("ul").append('<li><a href="https://www.learnpython.org/"><img src="img/python.jpeg"></a></li>');
 		}
 		else if (ruby > python && ruby > swift || ruby == swift && ruby > python) {
 			$("ul").append('<li>Ruby</li>');
 			$("ul").append('<li><a href="https://www.ruby-lang.org/en/documentation/quickstart/">Get Started Today!</a></li>');
-			$("ul").append('<li><img src="../css/ruby.jpeg"></li>');
+			$("ul").append('<li><a href="https://www.ruby-lang.org/en/documentation/quickstart/"><img src="img/ruby.jpeg"></a></li>');
 		}
 		else if (swift > python && swift > ruby || swift == python && swift > ruby) {
 			$("ul").append('<li>Swift</li>');
 			$("ul").append('<li><a href="https://swift.org/getting-started/#installing-swift">Get Started Today!</a></li>');
-			$("ul").append('<li><img src="../css/swift.jpeg"></li>');
+			$("ul").append('<li><a href="https://swift.org/getting-started/#installing-swift"><img src="img/swift.jpeg"></a></li>');
 		}
 
 		// Display answer
 		$("#result").removeClass("hidden");
 		event.preventDefault();
+	});
+
+	// Return to the beginning of the quiz
+	$(".again").click(function(event){
+		$("#result").hide();
+		//$("#row1").show();
+		//event.preventDefault();
 	});
 
 });
