@@ -71,18 +71,18 @@ $(document).ready(function() {
 		// Determine result
 		if (python > ruby && python > swift || python == ruby && python > swift) {
 			$("ul").append('<li>Python</li>');
-			$("ul").append('<li><a href="https://www.learnpython.org/">Get Started Today!</a></li>');
-			$("ul").append('<li><a href="https://www.learnpython.org/"><img src="img/python.jpeg"></a></li>');
+			$("ul").append('<li><a href="https://www.learnpython.org/" target="_blank">Get Started Today!</a></li>');
+			$("ul").append('<li><a href="https://www.learnpython.org/" target="_blank"><img src="img/python.jpeg"></a></li>');
 		}
 		else if (ruby > python && ruby > swift || ruby == swift && ruby > python) {
 			$("ul").append('<li>Ruby</li>');
-			$("ul").append('<li><a href="https://www.ruby-lang.org/en/documentation/quickstart/">Get Started Today!</a></li>');
-			$("ul").append('<li><a href="https://www.ruby-lang.org/en/documentation/quickstart/"><img src="img/ruby.jpeg"></a></li>');
+			$("ul").append('<li><a href="https://www.ruby-lang.org/en/documentation/quickstart/" target="_blank">Get Started Today!</a></li>');
+			$("ul").append('<li><a href="https://www.ruby-lang.org/en/documentation/quickstart/" target="_blank"><img src="img/ruby.jpeg"></a></li>');
 		}
 		else if (swift > python && swift > ruby || swift == python && swift > ruby) {
 			$("ul").append('<li>Swift</li>');
-			$("ul").append('<li><a href="https://swift.org/getting-started/#installing-swift">Get Started Today!</a></li>');
-			$("ul").append('<li><a href="https://swift.org/getting-started/#installing-swift"><img src="img/swift.jpeg"></a></li>');
+			$("ul").append('<li><a href="https://swift.org/getting-started/#installing-swift" target="_blank">Get Started Today!</a></li>');
+			$("ul").append('<li><a href="https://swift.org/getting-started/#installing-swift" target="_blank"><img src="img/swift.jpeg"></a></li>');
 		}
 
 		// Display answer
@@ -93,8 +93,6 @@ $(document).ready(function() {
 	// Return to the beginning of the quiz
 	$(".again").click(function(event){
 		$("#result").hide();
-		//$("#row1").show();
-		//event.preventDefault();
 	});
 
 });

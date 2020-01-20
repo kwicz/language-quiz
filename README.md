@@ -10,7 +10,7 @@ _This survey allows users to answer a series of questions that will help them ev
 
 ## Setup/Installation Requirements
 
-* _```pip install language-quiz```_
+_```pip install language-quiz```_
 
 ## Known Bugs
 
