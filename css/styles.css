@@ -1,20 +1,8 @@
-.jumbotron {
-	text-align: center;
-}
-
-button {
-	width: 100%;
-}
-
 body {
   background-image: url("../img/rainbownary.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;
-}
-
-#start {
-	width: 30%;
 }
 
 ul {
@@ -31,6 +19,13 @@ h2 {
 	color: white;
 }
 
+#start {
+	width: 30%;
+}
+.jumbotron {
+	text-align: center;
+}
+
 .answer {
 	height: 200px;
 }
@@ -41,4 +36,9 @@ h2 {
 
 .btn {
 	border-radius: 5rem;
+	width: 100%;
+}
+
+.again {
+	width: 50%;
 }
