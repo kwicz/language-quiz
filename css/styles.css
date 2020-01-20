@@ -5,3 +5,12 @@
 button {
 	width: 100%;
 }
+
+body {
+  background-image: url("rainbownary.jpeg");
+  text-align: center;
+}
+
+#start {
+	width: 50%;
+}
