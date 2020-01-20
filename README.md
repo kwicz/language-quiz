@@ -31,4 +31,4 @@ _Created with:_
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-Copyright (c) 2020 **_Katy Solvewicz_**
+Copyright (c) 2020 **_Katy Solovewicz_**
