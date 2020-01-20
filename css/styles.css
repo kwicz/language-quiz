@@ -14,7 +14,7 @@ body {
 }
 
 #start {
-	width: 50%;
+	width: 30%;
 }
 
 ul {
@@ -25,4 +25,20 @@ ul {
 
 img {
 	width: 100px;
+}
+
+h2 {
+	color: white;
+}
+
+.answer {
+	height: 200px;
+}
+
+.panel {
+	border-radius: 5rem;
+}
+
+.btn {
+	border-radius: 5rem;
 }
