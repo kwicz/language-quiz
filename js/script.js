@@ -5,4 +5,8 @@ $(document).ready(function() {
 		$("#row1").removeClass("hidden");
 	});
 
+	var $answer1 = ("#row1.button").click(function(){
+		
+	});
+
 });
