@@ -23,6 +23,7 @@ $(document).ready(function() {
 	// Start the quiz
 	$("#start").click(function(){
 		$("#start").hide();
+		$(".jumbotron").hide();
 		$("#row1").removeClass("hidden");
 	});
 
