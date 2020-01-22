@@ -3,10 +3,10 @@
 }
 
 body {
-  background-image: url("../img/rainbownary.jpeg");
-  background-repeat: no-repeat;
-  background-size: 150%;
-  text-align: center;
+	background-image: url("../img/rainbownary.jpeg");
+	background-repeat: no-repeat;
+	background-size: 150%;
+	text-align: center;
 }
 
 #start {

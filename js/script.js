@@ -1,5 +1,5 @@
 
-//Declare global variables (sorry)
+// Declare global variables (sorry)
 var python = 0;
 var ruby = 0;
 var swift = 0;

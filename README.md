@@ -10,7 +10,12 @@ _This survey allows users to answer a series of questions that will help them ev
 
 ## Setup/Installation Requirements
 
-_```pip install language-quiz```_
+_No additional packages are are needed for this program._
+
+_To open in browser:_
+
+_```git clone https://github.com/kwicz/language-quiz.git```_
+_```open ./index.html```_
 
 ## Known Bugs
 
@@ -25,6 +30,7 @@ _For additional support, please contact me through GitHub._
 _Created with:_
 
 * _HTML & CSS_
+* _Bootstrap 3.3.7_
 * _jQuery_
 
 ### License
