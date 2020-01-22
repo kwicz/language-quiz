@@ -24,11 +24,11 @@ $(document).ready(function() {
 		
 		// Tally up user responses
 		if (answer === "python") {
-				python++;
+			python++;
 		} else if (answer === "ruby") {
-				ruby++;
+			ruby++;
 		} else {
-				swift++;
+			swift++;
 		}
 		event.preventDefault();
 
