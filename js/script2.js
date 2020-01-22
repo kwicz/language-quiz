@@ -1,22 +1,11 @@
-
-// Declare global variables (sorry)
-var python = 0;
-var ruby = 0;
-var swift = 0;
-
-// Tally up user responses
-function calculate(response) {
-	if (response === "python") {
-		python++;
-	} else if (response === "ruby") {
-		ruby++;
-	} else if (response === "swift") {
-		swift++;
-	}
-};
-
 // Load the DOM
 $(document).ready(function() {
+
+	// Declare global variables (sorry)
+	var python = 0;
+	var ruby = 0;
+	var swift = 0;
+	var index = 1; 
 
 	// Start the quiz
 	$("#start").click(function(){
@@ -26,18 +15,25 @@ $(document).ready(function() {
 	});
 
 	// Get answer to question and reveal next set of questions
-	var index = 1; 
 	$(".answer").click(function(event) {
 		if (index < 5) {
 		$("#row" + index).hide();
 		index++;
 		$("#row" + index).removeClass("hidden");
 		var answer = $(this).val();
-		calculate(answer);
-		event.preventDefault();
+		
+		// Tally up user responses
+		if (answer === "python") {
+				python++;
+		} else if (answer === "ruby") {
+				ruby++;
 		} else {
-			
+				swift++;
+		}
+		event.preventDefault();
+
 			// Determine result at end of quiz
+		} else {
 			if (python > ruby && python > swift || python == ruby && python > swift) {
 				$("ul").append('<li>Python</li>');
 				$("ul").append('<li><a href="https://www.learnpython.org/" target="_blank">Get Started Today!</a></li>');

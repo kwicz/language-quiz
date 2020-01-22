@@ -31,7 +31,7 @@ $(document).ready(function() {
 	$(".question1").click(function(event){
 		$("#row1").hide();
 		$("#row2").removeClass("hidden");
-		answer1 = $(this).val();
+		var answer1 = $(this).val();
 		calculate(answer1);
 		event.preventDefault();
 	});
