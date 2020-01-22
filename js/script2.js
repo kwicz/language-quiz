@@ -8,11 +8,9 @@ var swift = 0;
 function calculate(response) {
 	if (response === "python") {
 		python++;
-	}
-	else if (response === "ruby") {
+	} else if (response === "ruby") {
 		ruby++;
-	}
-	else if (response === "swift") {
+	} else if (response === "swift") {
 		swift++;
 	}
 };
