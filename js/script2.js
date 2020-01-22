@@ -49,6 +49,7 @@ $(document).ready(function() {
 			}
 			
 			// Display answer
+			$("#row" + index).hide();
 			$("#result").removeClass("hidden");
 			event.preventDefault();
 		}
