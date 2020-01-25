@@ -2,7 +2,13 @@
 
 #### _A survey about programming languages, January 20, 2020_
 
-#### By _**Katy Solovewicz**_
+#### By _**K. Wicz**_
+
+## Preview
+
+![Landing Page Preview](/img/language-quiz.png)
+
+**[View Live Preview](https://kwicz.github.io/language-quiz/)**
 
 ## Description
 
@@ -37,4 +43,4 @@ _Created with:_
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-Copyright (c) 2020 **_Katy Solvewicz_**
+Copyright (c) 2020 **_K. Wicz_**
